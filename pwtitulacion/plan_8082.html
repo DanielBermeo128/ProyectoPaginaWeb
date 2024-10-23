@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan 80, 82</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css desde CDN-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <!-- mantener el footer abajo -->
+    <style>
+      body, html {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+      }
+
+      main {
+        flex: 1 0 auto; /*espacio disponible */
+      }
+
+      footer {
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <nav class="blue darken-4">
+        <div class="nav-wrapper container">
+          <a href="#" class="brand-logo">Plan 80,82</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">x</a></li>
+            <li><a href="#">x</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenido  -->
+    <main class="container">
+      <section class="contenido">
+        <h2 class="center-align">Modalidades de Titulación</h2>
+        <p>Este es el contenido específico para el Plan .</p>
+
+        <div class="row">
+          <div class="col s12">
+            <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+            </ul>
+          </div>
+
+      </section>
+    </main>
+
+    <!-- Pie de página al fondo -->
+    <footer class="page-footer blue darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <p class="center-align">&copy; 2024 Mi página web</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      M.AutoInit();
+    </script>
+  </body>
+</html>

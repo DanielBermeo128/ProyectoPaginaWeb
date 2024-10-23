@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #030362;
+}
+
+header {
+    background-color: #202c56;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.planes {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 2rem 0;
+}
+
+.planes select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 200px;
+}
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #202c56;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

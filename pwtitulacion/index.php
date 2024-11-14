@@ -33,8 +33,6 @@ include ("./header.php");
     <main class="container">
       <section class="planes">
         <h2 class="center-align">Selecciona un Plan de Estudio</h2>
-
-
         <div class="input-field col s12">
           <select id="planes" class="browser-default" onchange="redirigirPlan()">
             <option value="" disabled selected>--Selecciona un plan--</option>

@@ -1,56 +1,13 @@
-/* Contenedor principal de la línea de tiempo en pasos */
-.timeline-steps {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Permite que los pasos se ajusten a varias líneas si es necesario */
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px 0;
-  }
-  
-  /* Estilos para los pasos en la línea de tiempo */
-  .steps {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los pasos se ajusten automáticamente */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-  }
-  
-  /* Estilo de cada paso individual */
-  .step {
-    background-color: #D59F0F;
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-    width: 150px;
-    text-align: center;
-    margin: 10px; /* Espacio entre pasos */
-    flex: 1 1 150px; /* Ajusta cada paso para que quepa dentro del espacio disponible */
-  }
-  
-  /* Conector de flecha entre pasos */
-  .step::after {
-    content: '→';
-    font-size: 24px;
-    color: #333;
-    position: absolute;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  /* Eliminar flecha para el último paso */
-  .step:last-child::after {
-    display: none;
-  }
-  
-  /* Responsive: Ajuste automático en pantallas pequeñas */
-  @media screen and (max-width: 600px) {
-    .step::after {
-      display: none; /* Elimina las flechas en pantallas pequeñas */
-    }
-  }
-  
+/* Estilos para centrar la tarjeta */
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura de la página */
+  margin: 0; /* Elimina cualquier margen de la página */
+}
+
+.card-container {
+  width: 100%;
+  max-width: 400px; /* Ancho máximo para la tarjeta */
+}

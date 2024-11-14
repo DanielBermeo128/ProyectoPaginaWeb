@@ -20,29 +20,46 @@
 include ("./header.php");
 ?>
 
-    <!-- Contenido principal -->
-    <main class="container">
+
+<!-- targeta de lo requisitos -->
+<main class="container">
       <section class="contenido">
-        <h2 class="center-align">Plan 2119</h2>
+        <h2 class="center-align">Plan 1759</h2>
         <p><strong>• Requisitos</strong></p>
-        <div class="row">
+        <div class="center-card">
+        <div class="card-container">
+            <div class="card blue darken-4">
+                <div class="card-content white-text">
+                    <span class="card-title">Requisitos</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <p><strong>• Modalidad: Con trabajo escrito y réplica oral</strong></p>
           <div class="col s12">
             <ul class="collapsible popout">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <li>                                         <!-- aqui estan los icono de las modalidades la pueden poenr del pan 8082 -->
+                <div class="collapsible-header"><i class="material-icons">record_voice_over</i>First</div>
                 <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-header"><i class="material-icons">voice_over_off</i>Second</div>
                 <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header"><i class="material-icons">no_sim</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolr sit amet.</span></div>
               </li>
             </ul>
           </div>
-
       </section>
     </main>
 

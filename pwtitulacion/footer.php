@@ -42,12 +42,13 @@
                     <footer class="row justify-content-center">
                         <div class="col-12 col-lg-12">
                             <p style="text-align: center;" class="pt-2 pb-2 footer-derechos">
-                                Hecho en México, Universidad Nacional Autónoma de México (UNAM), &copy; todos los derechos reservados 2023. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución.
+                                Hecho en México, Universidad Nacional Autónoma de México (UNAM), &copy; todos los derechos reservados 2024. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución.
                             </p>
+                            <!--
                             <p style="text-align: center;">
                                 <a ui-sref="creditos" target="_blank" href="#!/creditos">Créditos</a> |
                                 <a ui-sref="llegar_fes_aragon" target="_blank" href="#!/nuestra-facultad/llegar-fes-aragon">Cómo llegar a la FES</a>
-                            </p>
+                            </p> -->
                         </div>
                         
                         <div class="col-12 col-lg-6 hide-container-xl">

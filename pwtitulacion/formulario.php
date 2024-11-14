@@ -80,6 +80,11 @@
             <label for="modalidad">Modalidad</label>
         </div>
 
+        <div class="input-field">
+            <input type="text" id="modalidad" name="modalidad" required>
+            <label for="modalidad">Seleccione una Modalidad</label>
+        </div>
+
         
         <div class="input-field">
             <input type="text" id="fecha_inicio_tramite" name="fecha_inicio_tramite" class="datepicker" required>

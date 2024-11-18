@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>encabezado</title>
+    <title>Inicio</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,7 +18,7 @@
             <img src="public/2icoblanco.png" alt="Logo ICO" style="height: 50px; margin-top: 5px;">
           </a>
   
-          <a href="#" class="brand-logo center">Planes de Estudio ICO</a>
+          <a href="#" class="brand-logo center">Modalidades de Titulación</a>
 
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.php">Inicio</a></li>

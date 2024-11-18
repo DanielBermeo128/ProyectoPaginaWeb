@@ -1,34 +1,55 @@
 <style>
-     
-      .redes-icono {
-          width: 25px; 
-          height: 25px;
-          margin: 0 8px;
-          transition: transform 0.3s;
-      }
+    .redes-icono {
+        width: 16px; /* Iconos más pequeños */
+        height: 16px;
+        margin: 0 5px; /* Reduce el margen entre los iconos */
+        transition: transform 0.3s;
+    }
 
-      .redes-icono:hover {
-          transform: scale(1.1); 
-      }
+    .redes-icono:hover {
+        transform: scale(1.1);
+    }
 
-      .mb-4 {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 20px;
-      }
+    .mb-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px; /* Reduce el margen inferior */
+    }
 
-      .col-12 {
-          text-align: center;
-      }
-    
-      html, body {
+    .col-12 {
+        text-align: center;
+    }
+
+    .footer-derechos {
+        font-size: 12px; /* Fuente más pequeña para el texto del footer */
+        line-height: 1.4; /* Reduce la altura de línea */
+        margin: 0px 0; /* Reduce los márgenes verticales */
+    }
+
+    html, body {
         height: 100%;
         margin: 0;
         display: flex;
         flex-direction: column;
-      }      
-  </style>
+    }
+
+    footer.page-footer {
+        background-color: #0D47A1; /* Azul oscuro ajustable */
+        padding: 0px 0; /* Ajusta el espacio interno del footer */
+    }
+
+    footer.page-footer .container {
+        padding: 0; /* Elimina padding adicional en el contenedor */
+    }
+
+    .hide-container-xl p {
+        font-size: 12px; /* Texto más pequeño para el mensaje de redes sociales */
+        margin-bottom: 5px; /* Menor margen inferior */
+    }
+</style>
+
+
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

@@ -42,7 +42,7 @@
     </header>
 <div class="container">
     <h1 class="center-align">Registro de Modalidad</h1>
-    <form action="tu_procesador.php" method="POST">
+    <form action="CrudeCode/sacarForm.php" method="POST">
         
         
         <div class="input-field">
@@ -71,18 +71,18 @@
         
         <div class="input-field">
             <select id="modalidad" name="modalidad" required>
-                <option value="" disabled selected>Seleccione una Modalidad</option>
-                <option value="1">Tesis</option>
-                <option value="2">Examen Profesional</option>
-                <option value="3">Curso de Titulación</option>
+                <option value=0 disabled selected>Seleccione una Modalidad</option>
+                <option value=1>Tesis</option>
+                <option value=2>Examen Profesional</option>
+                <option value=3>Curso de Titulación</option>
                 <!-- Añadir más opciones según tu tabla de modalidades -->
             </select>
             <label for="modalidad">Modalidad</label>
         </div>
 
         <div class="input-field">
-            <input type="text" id="modalidad" name="modalidad" required>
-            <label for="modalidad">Seleccione una Modalidad</label>
+            <input type="text" id="d_modalidad" name="d_modalidad" required>
+            <label for="d_modalidad">Detalle de la modalidad</label>
         </div>
 
         

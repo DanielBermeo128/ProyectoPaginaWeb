@@ -64,19 +64,20 @@
                 </div>
             </div>
 
-            <!-- Carrera -->
-            <div class="row">
+
+            <!-- Carrera nmms erik se supone que solo es para ico o.O-->
+            <!-- <div class="row">
                 <div class="input-field col s6">
                     <select id="carrera" required>
                         <option value="" disabled selected>Selecciona tu carrera</option>
                         <option value="computacion">Ingeniería en Computación</option>
                         <option value="electronica">Ingeniería Electrónica</option>
                         <option value="mecanica">Ingeniería Mecánica</option>
-                        <!-- Agrega más opciones según sea necesario -->
+                        Agrega más opciones según sea necesario
                     </select>
                     <label for="carrera">Carrera</label>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Botón de Enviar -->
             <div class="row">

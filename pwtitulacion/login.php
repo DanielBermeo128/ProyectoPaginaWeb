@@ -35,59 +35,38 @@
       </nav>
     </header>
 </head>
-    </header>
+    
     <section class="contenido">
     <h1 class="center-align">Login</h1>
     <div class="row">
-        <form class="col s12">
-            <!-- Número de cuenta -->
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="numero_cuenta" type="text" class="validate" placeholder="Ejemplo: 123456789" required>
-                    <label for="numero_cuenta">Número de cuenta</label>
-                </div>
-            </div>
+    <form class="col s12" action="CrudeCode/logear.php" method="POST">
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="numero_cuenta" name="numero_cuenta" type="text" class="validate" placeholder="Ejemplo: 123456789" required>
+            <label for="numero_cuenta">Número de cuenta</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="password" name="password" type="password" class="validate" required>
+            <label for="password">Contraseña</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <input id="email" name="email" type="email" class="validate" placeholder="ejemplo@correo.com" required>
+            <label for="email">Correo electrónico</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 center-align">
+            <button type="submit" class="btn waves-effect waves-light blue">
+                <i class="material-icons left">login</i>Iniciar sesión
+            </button>
+        </div>
+    </div>
+</form>
 
-            <!-- Contraseña -->
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="password" type="password" class="validate" required>
-                    <label for="password">Contraseña</label>
-                </div>
-            </div>
-
-            <!-- Correo electrónico -->
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" placeholder="ejemplo@correo.com" required>
-                    <label for="email">Correo electrónico</label>
-                </div>
-            </div>
-
-
-            <!-- Carrera nmms erik se supone que solo es para ico o.O-->
-            <!-- <div class="row">
-                <div class="input-field col s6">
-                    <select id="carrera" required>
-                        <option value="" disabled selected>Selecciona tu carrera</option>
-                        <option value="computacion">Ingeniería en Computación</option>
-                        <option value="electronica">Ingeniería Electrónica</option>
-                        <option value="mecanica">Ingeniería Mecánica</option>
-                        Agrega más opciones según sea necesario
-                    </select>
-                    <label for="carrera">Carrera</label>
-                </div>
-            </div> -->
-
-            <!-- Botón de Enviar -->
-            <div class="row">
-                <div class="col s12 center-align">
-                    <button type="submit" class="btn waves-effect waves-light blue">
-                        <i class="material-icons left">login</i>Iniciar sesión
-                    </button>
-                </div>
-            </div>
-        </form>
     </div>
 </section>
 

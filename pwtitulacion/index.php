@@ -1,6 +1,3 @@
-<?php
-include ("./header.php");
-?>
 <title>pw titulacion</title>
 <style>
   /* Resetear márgenes y box-sizing */
@@ -29,6 +26,7 @@ include ("./header.php");
     align-items: center; /* Centrar verticalmente */
     justify-content: center; /* Centrar horizontalmente */
     text-align: center; /* Centrar texto */
+    margin-bottom: 200px; /* Asegura un espacio antes del footer */
   }
 
   footer {
@@ -49,6 +47,11 @@ include ("./header.php");
     font-size: 16px; /* Ajustar tamaño de fuente */
     text-align-last: center; /* Centrar texto dentro del menú desplegable */
   }
+
+  .carousel img {
+    max-height: 500px;
+
+  }
 </style>
 
 <!-- Importar recursos de Materialize -->
@@ -62,10 +65,22 @@ include ("./header.php");
       window.location.href = planSeleccionado;
     }
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    M.Carousel.init(elems, {
+      fullWidth: true,
+      indicators: true
+    });
+  });
+
 </script>
 </head>
 
 <body>
+<?php
+include ("./header.php");
+?>
   <main>
     <section class="planes">
       <h2 class="center-align">Modalidades por Plan Estudios de ICO</h2>
@@ -77,9 +92,38 @@ include ("./header.php");
         </select>
       </div>
     </section>
+    <section>
+      <!-- Carrusel de imágenes -->
+      <div class="carousel-container" style="padding: 20px; margin-bottom: px;">
+      <div class="carousel-container" style="padding: 20px;">
+  <div class="carousel carousel-slider center">
+    <div class="carousel-item amber white-text" href="#one!">
+      <img src="images/img1.jpg" alt="Imagen 1">
+      <h2>Modalidad 1</h2>
+      <p class="white-text">Descripción de la modalidad 1</p>
+    </div>
+    <div class="carousel-item green white-text" href="#two!">
+      <img src="path_to_image2.jpg" alt="Imagen 2">
+      <h2>Modalidad 2</h2>
+      <p class="white-text">Descripción de la modalidad 2</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#three!">
+      <img src="path_to_image3.jpg" alt="Imagen 3">
+      <h2>Modalidad 3</h2>
+      <p class="white-text">Descripción de la modalidad 3</p>
+    </div>
+    <div class="carousel-item red white-text" href="#four!">
+      <img src="path_to_image4.jpg" alt="Imagen 4">
+      <h2>Modalidad 4</h2>
+      <p class="white-text">Descripción de la modalidad 4</p>
+    </div>
+  </div>
+</div>
+</div>
+    </section>
   </main>
+
+<?php include ("./footer.php"); ?>
 </body>
 
-<?php
-include ("./footer.php");
-?>
+

@@ -31,3 +31,6 @@ INSERT INTO modalidades (id_modalidad, nombre_modalidad) VALUES
 (1, 'Tesis'),
 (2, 'Examen Profesional'),
 (3, 'Curso de Titulación');
+
+INSERT INTO admins (no_cuenta, contrasena, correo) VALUES 
+(421072080, 'segura1234', 'danielbermeo80@aragon.unam.mx');

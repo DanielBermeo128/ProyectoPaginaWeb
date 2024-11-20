@@ -100,23 +100,19 @@ include ("./header.php");
   <div class="carousel carousel-slider center">
     <div class="carousel-item amber white-text" href="#one!">
       <img src="images/img1.jpg" alt="Imagen 1">
-      <h2>Modalidad 1</h2>
-      <p class="white-text">Descripción de la modalidad 1</p>
+      
     </div>
     <div class="carousel-item green white-text" href="#two!">
-      <img src="path_to_image2.jpg" alt="Imagen 2">
-      <h2>Modalidad 2</h2>
-      <p class="white-text">Descripción de la modalidad 2</p>
+      <img src="images/img2.jpg" alt="Imagen 2">
+      
     </div>
     <div class="carousel-item blue white-text" href="#three!">
-      <img src="path_to_image3.jpg" alt="Imagen 3">
-      <h2>Modalidad 3</h2>
-      <p class="white-text">Descripción de la modalidad 3</p>
+      <img src="images/img3.jpg" alt="Imagen 3">
+      
     </div>
     <div class="carousel-item red white-text" href="#four!">
-      <img src="path_to_image4.jpg" alt="Imagen 4">
-      <h2>Modalidad 4</h2>
-      <p class="white-text">Descripción de la modalidad 4</p>
+      <img src="images/img4.jpg" alt="Imagen 4">
+      
     </div>
   </div>
 </div>

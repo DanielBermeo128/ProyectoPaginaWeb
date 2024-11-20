@@ -2,8 +2,8 @@
 // Configuración de la conexión a la base de datos
 $host = 'localhost';
 $dbname = 'registros';
-$user = 'root'; 
-$password = '1234'; 
+$user = 'titulacion'; 
+$password = '123456'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $password);

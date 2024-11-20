@@ -9,8 +9,8 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 }
 // Conexión a la base de datos
 $servername = "localhost"; // Cambia según tu configuración
-$username = "root";        // Cambia según tu configuración
-$password = "1234";            // Cambia según tu configuración
+$username = "titulacion";        // Cambia según tu configuración
+$password = "123456";            // Cambia según tu configuración
 $dbname = "registros";     // Cambia según el nombre de tu base de datos
 
 $conn = new mysqli($servername, $username, $password, $dbname);

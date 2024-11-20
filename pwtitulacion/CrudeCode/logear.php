@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "root"; // Cambia según tu configuración
-$password = "1234"; // Cambia según tu configuración
+$username = "titulacion"; // Cambia según tu configuración
+$password = "123456"; // Cambia según tu configuración
 $dbname = "registros";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

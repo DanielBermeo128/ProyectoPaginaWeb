@@ -1,5 +1,5 @@
 
-<title>pw titulacion</title>
+<title>Titulacion ICO</title>
 <style>
   /* Resetear márgenes y box-sizing */
   * {

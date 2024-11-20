@@ -30,8 +30,10 @@ if ($hashed_password) {
     if ($password_input == $hashed_password) {
         echo "Inicio de sesión exitoso.";
         // Redirigir al dashboard o a otra página
-        //header("Location: dashboard.php");
-        //exit();
+        session_start(); // Iniciar la sesión
+
+        $_SESSION['logged_in'] = true; // Variable que indica el estado de inicio de sesión
+        header("Location: ../registros.php"); // Redirigir a la página protegida
     } else {
         echo "Contraseña incorrecta.";
     }
